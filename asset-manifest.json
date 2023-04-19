@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Team-1/static/css/main.f9566d34.css",
-    "main.js": "/Team-1/static/js/main.9b59a384.js",
+    "main.js": "/Team-1/static/js/main.0b43d653.js",
     "static/js/787.4ef7427d.chunk.js": "/Team-1/static/js/787.4ef7427d.chunk.js",
     "static/media/runners.png": "/Team-1/static/media/runners.e7ab8fc371e2431c87d0.png",
     "index.html": "/Team-1/index.html",
     "main.f9566d34.css.map": "/Team-1/static/css/main.f9566d34.css.map",
-    "main.9b59a384.js.map": "/Team-1/static/js/main.9b59a384.js.map",
+    "main.0b43d653.js.map": "/Team-1/static/js/main.0b43d653.js.map",
     "787.4ef7427d.chunk.js.map": "/Team-1/static/js/787.4ef7427d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f9566d34.css",
-    "static/js/main.9b59a384.js"
+    "static/js/main.0b43d653.js"
   ]
 }
