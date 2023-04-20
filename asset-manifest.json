@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/Team-1/static/css/main.5a96d551.css",
-    "main.js": "/Team-1/static/js/main.65be2651.js",
+    "main.css": "/Team-1/static/css/main.ac1e16d2.css",
+    "main.js": "/Team-1/static/js/main.aac4b704.js",
     "static/js/787.4ef7427d.chunk.js": "/Team-1/static/js/787.4ef7427d.chunk.js",
+    "static/media/ud_shirt.png": "/Team-1/static/media/ud_shirt.0ecc0ed32749d44a4393.png",
     "static/media/runners.png": "/Team-1/static/media/runners.e7ab8fc371e2431c87d0.png",
     "index.html": "/Team-1/index.html",
-    "main.5a96d551.css.map": "/Team-1/static/css/main.5a96d551.css.map",
-    "main.65be2651.js.map": "/Team-1/static/js/main.65be2651.js.map",
+    "main.ac1e16d2.css.map": "/Team-1/static/css/main.ac1e16d2.css.map",
+    "main.aac4b704.js.map": "/Team-1/static/js/main.aac4b704.js.map",
     "787.4ef7427d.chunk.js.map": "/Team-1/static/js/787.4ef7427d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a96d551.css",
-    "static/js/main.65be2651.js"
+    "static/css/main.ac1e16d2.css",
+    "static/js/main.aac4b704.js"
   ]
 }
