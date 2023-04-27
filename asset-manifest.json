@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/Team-1/static/css/main.61d3baa8.css",
-    "main.js": "/Team-1/static/js/main.4fd5933c.js",
+    "main.css": "/Team-1/static/css/main.11aa2fd8.css",
+    "main.js": "/Team-1/static/js/main.cb953077.js",
     "static/js/787.4ef7427d.chunk.js": "/Team-1/static/js/787.4ef7427d.chunk.js",
+    "static/media/UDcrew.png": "/Team-1/static/media/UDcrew.edc0892c4c3e42dbcfc3.png",
     "static/media/ud_shirt.png": "/Team-1/static/media/ud_shirt.0ecc0ed32749d44a4393.png",
     "static/media/runners.png": "/Team-1/static/media/runners.e7ab8fc371e2431c87d0.png",
+    "static/media/jeans.png": "/Team-1/static/media/jeans.20d81ec720c2d6686053.png",
+    "static/media/nikeHood.png": "/Team-1/static/media/nikeHood.26781246f35769e6e8f0.png",
+    "static/media/sweatpants.png": "/Team-1/static/media/sweatpants.428f0a978b8fd95c7032.png",
+    "static/media/appleT.png": "/Team-1/static/media/appleT.3d7a17f28afb1a267474.png",
     "index.html": "/Team-1/index.html",
-    "main.61d3baa8.css.map": "/Team-1/static/css/main.61d3baa8.css.map",
-    "main.4fd5933c.js.map": "/Team-1/static/js/main.4fd5933c.js.map",
+    "main.11aa2fd8.css.map": "/Team-1/static/css/main.11aa2fd8.css.map",
+    "main.cb953077.js.map": "/Team-1/static/js/main.cb953077.js.map",
     "787.4ef7427d.chunk.js.map": "/Team-1/static/js/787.4ef7427d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61d3baa8.css",
-    "static/js/main.4fd5933c.js"
+    "static/css/main.11aa2fd8.css",
+    "static/js/main.cb953077.js"
   ]
 }
