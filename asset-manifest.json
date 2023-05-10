@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Team-1/static/css/main.82cbca1e.css",
-    "main.js": "/Team-1/static/js/main.387f0085.js",
+    "main.css": "/Team-1/static/css/main.f50edd18.css",
+    "main.js": "/Team-1/static/js/main.f9ffc68d.js",
     "static/js/787.4ef7427d.chunk.js": "/Team-1/static/js/787.4ef7427d.chunk.js",
     "static/media/UDcrew.png": "/Team-1/static/media/UDcrew.edc0892c4c3e42dbcfc3.png",
     "static/media/ud_shirt.png": "/Team-1/static/media/ud_shirt.0ecc0ed32749d44a4393.png",
@@ -17,12 +17,12 @@
     "static/media/appleT.png": "/Team-1/static/media/appleT.3d7a17f28afb1a267474.png",
     "static/media/SportSweater.png": "/Team-1/static/media/SportSweater.84d0826f3792a8c41e1d.png",
     "index.html": "/Team-1/index.html",
-    "main.82cbca1e.css.map": "/Team-1/static/css/main.82cbca1e.css.map",
-    "main.387f0085.js.map": "/Team-1/static/js/main.387f0085.js.map",
+    "main.f50edd18.css.map": "/Team-1/static/css/main.f50edd18.css.map",
+    "main.f9ffc68d.js.map": "/Team-1/static/js/main.f9ffc68d.js.map",
     "787.4ef7427d.chunk.js.map": "/Team-1/static/js/787.4ef7427d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82cbca1e.css",
-    "static/js/main.387f0085.js"
+    "static/css/main.f50edd18.css",
+    "static/js/main.f9ffc68d.js"
   ]
 }
