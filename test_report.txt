@@ -2,11 +2,2130 @@
 > react-typescript-starter@0.1.0 test
 > react-scripts test --coverage
 
-No tests found, exiting with code 1
-Run with `--passWithNoTests` to exit with code 0
-In /home/runner/work/Team-1/Team-1
-  24 files checked.
-  testMatch: /home/runner/work/Team-1/Team-1/src/**/__tests__/**/*.{js,jsx,ts,tsx}, /home/runner/work/Team-1/Team-1/src/**/*.{spec,test}.{js,jsx,ts,tsx} - 0 matches
-  testPathIgnorePatterns: /node_modules/ - 24 matches
-  testRegex:  - 0 matches
-Pattern:  - 0 matches
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+PASS src/components/ProductList.test.tsx
+  ● Console
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      19 |     });
+      20 |     beforeEach(() => {
+    > 21 |         render(
+         |         ^
+      22 |             <React.StrictMode>
+      23 |                 <ChakraProvider>
+      24 |                     <ShoppingCartProvider>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/ProductList.test.tsx:21:9)
+
+    console.error
+      Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at MotionComponent (/home/runner/work/Team-1/Team-1/node_modules/framer-motion/dist/cjs/index.js:232:22)
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at MenuList2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:934:11)
+          at Menu (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:665:11)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at ProductListWomen (/home/runner/work/Team-1/Team-1/src/components/ProductList.tsx:304:49)
+          at ShoppingCartProvider (/home/runner/work/Team-1/Team-1/src/context/ShoppingCartContext.tsx:30:40)
+          at EnvironmentProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/react-env/dist/index.js:51:11)
+          at ColorModeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/node_modules/@chakra-ui/color-mode/dist/index.js:180:5)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:106:21)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:129:11)
+          at ChakraProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/provider/dist/index.js:35:5)
+          at ChakraProvider2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/dist/index.js:84:5)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:15124:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:15163:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:15657:16)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:19909:28)
+      at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at MotionComponent (/home/runner/work/Team-1/Team-1/node_modules/framer-motion/dist/cjs/index.js:232:22)
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at MenuList2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:934:11)
+          at Menu (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:665:11)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at ProductListWomen (/home/runner/work/Team-1/Team-1/src/components/ProductList.tsx:304:49)
+          at ShoppingCartProvider (/home/runner/work/Team-1/Team-1/src/context/ShoppingCartContext.tsx:30:40)
+          at EnvironmentProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/react-env/dist/index.js:51:11)
+          at ColorModeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/node_modules/@chakra-ui/color-mode/dist/index.js:180:5)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:106:21)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:129:11)
+          at ChakraProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/provider/dist/index.js:35:5)
+          at ChakraProvider2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/dist/index.js:84:5)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:15124:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:15163:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:15657:16)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:19909:28)
+      at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at MotionComponent (/home/runner/work/Team-1/Team-1/node_modules/framer-motion/dist/cjs/index.js:232:22)
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at MenuList2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:934:11)
+          at Menu (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:665:11)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at ProductListWomen (/home/runner/work/Team-1/Team-1/src/components/ProductList.tsx:304:49)
+          at ShoppingCartProvider (/home/runner/work/Team-1/Team-1/src/context/ShoppingCartContext.tsx:30:40)
+          at EnvironmentProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/react-env/dist/index.js:51:11)
+          at ColorModeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/node_modules/@chakra-ui/color-mode/dist/index.js:180:5)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:106:21)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:129:11)
+          at ChakraProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/provider/dist/index.js:35:5)
+          at ChakraProvider2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/dist/index.js:84:5)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:15124:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:15163:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:15657:16)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:19909:28)
+      at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at MotionComponent (/home/runner/work/Team-1/Team-1/node_modules/framer-motion/dist/cjs/index.js:232:22)
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at MenuList2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:934:11)
+          at Menu (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:665:11)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at ProductListWomen (/home/runner/work/Team-1/Team-1/src/components/ProductList.tsx:304:49)
+          at ShoppingCartProvider (/home/runner/work/Team-1/Team-1/src/context/ShoppingCartContext.tsx:30:40)
+          at EnvironmentProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/react-env/dist/index.js:51:11)
+          at ColorModeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/node_modules/@chakra-ui/color-mode/dist/index.js:180:5)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:106:21)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:129:11)
+          at ChakraProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/provider/dist/index.js:35:5)
+          at ChakraProvider2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/dist/index.js:84:5)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:15124:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:15163:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:15657:16)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:19916:28)
+      at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at MotionComponent (/home/runner/work/Team-1/Team-1/node_modules/framer-motion/dist/cjs/index.js:232:22)
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at MenuList2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:934:11)
+          at Menu (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:665:11)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at ProductListWomen (/home/runner/work/Team-1/Team-1/src/components/ProductList.tsx:304:49)
+          at ShoppingCartProvider (/home/runner/work/Team-1/Team-1/src/context/ShoppingCartContext.tsx:30:40)
+          at EnvironmentProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/react-env/dist/index.js:51:11)
+          at ColorModeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/node_modules/@chakra-ui/color-mode/dist/index.js:180:5)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:106:21)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:129:11)
+          at ChakraProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/provider/dist/index.js:35:5)
+          at ChakraProvider2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/dist/index.js:84:5)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:15124:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:15163:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:15657:16)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:19916:28)
+      at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at MotionComponent (/home/runner/work/Team-1/Team-1/node_modules/framer-motion/dist/cjs/index.js:232:22)
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at MenuList2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:934:11)
+          at Menu (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:665:11)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at ProductListWomen (/home/runner/work/Team-1/Team-1/src/components/ProductList.tsx:304:49)
+          at ShoppingCartProvider (/home/runner/work/Team-1/Team-1/src/context/ShoppingCartContext.tsx:30:40)
+          at EnvironmentProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/react-env/dist/index.js:51:11)
+          at ColorModeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/node_modules/@chakra-ui/color-mode/dist/index.js:180:5)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:106:21)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:129:11)
+          at ChakraProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/provider/dist/index.js:35:5)
+          at ChakraProvider2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/dist/index.js:84:5)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:15124:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:15163:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:15657:16)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:19916:28)
+      at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+       8 | describe("Testing ProductList Component", () => {
+       9 |     test("testing rendering", () => {
+    > 10 |         render(
+         |         ^
+      11 |             <React.StrictMode>
+      12 |                 <ChakraProvider>
+      13 |                     <ShoppingCartProvider>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/ProductList.test.tsx:10:9)
+
+    console.error
+      Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at MotionComponent (/home/runner/work/Team-1/Team-1/node_modules/framer-motion/dist/cjs/index.js:232:22)
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at MenuList2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:934:11)
+          at Menu (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:665:11)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at ProductListWomen (/home/runner/work/Team-1/Team-1/src/components/ProductList.tsx:304:49)
+          at ShoppingCartProvider (/home/runner/work/Team-1/Team-1/src/context/ShoppingCartContext.tsx:30:40)
+          at EnvironmentProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/react-env/dist/index.js:51:11)
+          at ColorModeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/node_modules/@chakra-ui/color-mode/dist/index.js:180:5)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:106:21)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:129:11)
+          at ChakraProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/provider/dist/index.js:35:5)
+          at ChakraProvider2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/dist/index.js:84:5)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:15124:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:15163:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:15657:16)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:19909:28)
+      at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at MotionComponent (/home/runner/work/Team-1/Team-1/node_modules/framer-motion/dist/cjs/index.js:232:22)
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at MenuList2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:934:11)
+          at Menu (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:665:11)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at ProductListWomen (/home/runner/work/Team-1/Team-1/src/components/ProductList.tsx:304:49)
+          at ShoppingCartProvider (/home/runner/work/Team-1/Team-1/src/context/ShoppingCartContext.tsx:30:40)
+          at EnvironmentProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/react-env/dist/index.js:51:11)
+          at ColorModeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/node_modules/@chakra-ui/color-mode/dist/index.js:180:5)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:106:21)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:129:11)
+          at ChakraProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/provider/dist/index.js:35:5)
+          at ChakraProvider2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/dist/index.js:84:5)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:15124:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:15163:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:15657:16)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:19909:28)
+      at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at MotionComponent (/home/runner/work/Team-1/Team-1/node_modules/framer-motion/dist/cjs/index.js:232:22)
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at MenuList2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:934:11)
+          at Menu (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:665:11)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at ProductListWomen (/home/runner/work/Team-1/Team-1/src/components/ProductList.tsx:304:49)
+          at ShoppingCartProvider (/home/runner/work/Team-1/Team-1/src/context/ShoppingCartContext.tsx:30:40)
+          at EnvironmentProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/react-env/dist/index.js:51:11)
+          at ColorModeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/node_modules/@chakra-ui/color-mode/dist/index.js:180:5)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:106:21)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:129:11)
+          at ChakraProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/provider/dist/index.js:35:5)
+          at ChakraProvider2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/dist/index.js:84:5)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:15124:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:15163:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:15657:16)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:19909:28)
+      at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at MotionComponent (/home/runner/work/Team-1/Team-1/node_modules/framer-motion/dist/cjs/index.js:232:22)
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at MenuList2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:934:11)
+          at Menu (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:665:11)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at ProductListWomen (/home/runner/work/Team-1/Team-1/src/components/ProductList.tsx:304:49)
+          at ShoppingCartProvider (/home/runner/work/Team-1/Team-1/src/context/ShoppingCartContext.tsx:30:40)
+          at EnvironmentProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/react-env/dist/index.js:51:11)
+          at ColorModeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/node_modules/@chakra-ui/color-mode/dist/index.js:180:5)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:106:21)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:129:11)
+          at ChakraProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/provider/dist/index.js:35:5)
+          at ChakraProvider2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/dist/index.js:84:5)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:15124:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:15163:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:15657:16)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:19916:28)
+      at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at MotionComponent (/home/runner/work/Team-1/Team-1/node_modules/framer-motion/dist/cjs/index.js:232:22)
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at MenuList2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:934:11)
+          at Menu (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:665:11)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at ProductListWomen (/home/runner/work/Team-1/Team-1/src/components/ProductList.tsx:304:49)
+          at ShoppingCartProvider (/home/runner/work/Team-1/Team-1/src/context/ShoppingCartContext.tsx:30:40)
+          at EnvironmentProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/react-env/dist/index.js:51:11)
+          at ColorModeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/node_modules/@chakra-ui/color-mode/dist/index.js:180:5)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:106:21)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:129:11)
+          at ChakraProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/provider/dist/index.js:35:5)
+          at ChakraProvider2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/dist/index.js:84:5)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:15124:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:15163:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:15657:16)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:19916:28)
+      at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at MotionComponent (/home/runner/work/Team-1/Team-1/node_modules/framer-motion/dist/cjs/index.js:232:22)
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at MenuList2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:934:11)
+          at Menu (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:665:11)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at ProductListWomen (/home/runner/work/Team-1/Team-1/src/components/ProductList.tsx:304:49)
+          at ShoppingCartProvider (/home/runner/work/Team-1/Team-1/src/context/ShoppingCartContext.tsx:30:40)
+          at EnvironmentProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/react-env/dist/index.js:51:11)
+          at ColorModeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/node_modules/@chakra-ui/color-mode/dist/index.js:180:5)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:106:21)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:129:11)
+          at ChakraProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/provider/dist/index.js:35:5)
+          at ChakraProvider2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/dist/index.js:84:5)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:15124:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:15163:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:15657:16)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:19916:28)
+      at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      19 |     });
+      20 |     beforeEach(() => {
+    > 21 |         render(
+         |         ^
+      22 |             <React.StrictMode>
+      23 |                 <ChakraProvider>
+      24 |                     <ShoppingCartProvider>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/ProductList.test.tsx:21:9)
+
+    console.error
+      Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at MotionComponent (/home/runner/work/Team-1/Team-1/node_modules/framer-motion/dist/cjs/index.js:232:22)
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at MenuList2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:934:11)
+          at Menu (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:665:11)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at ProductListWomen (/home/runner/work/Team-1/Team-1/src/components/ProductList.tsx:304:49)
+          at ShoppingCartProvider (/home/runner/work/Team-1/Team-1/src/context/ShoppingCartContext.tsx:30:40)
+          at EnvironmentProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/react-env/dist/index.js:51:11)
+          at ColorModeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/node_modules/@chakra-ui/color-mode/dist/index.js:180:5)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:106:21)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:129:11)
+          at ChakraProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/provider/dist/index.js:35:5)
+          at ChakraProvider2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/dist/index.js:84:5)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:15124:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:15163:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:15657:16)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:19909:28)
+      at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at MotionComponent (/home/runner/work/Team-1/Team-1/node_modules/framer-motion/dist/cjs/index.js:232:22)
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at MenuList2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:934:11)
+          at Menu (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:665:11)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at ProductListWomen (/home/runner/work/Team-1/Team-1/src/components/ProductList.tsx:304:49)
+          at ShoppingCartProvider (/home/runner/work/Team-1/Team-1/src/context/ShoppingCartContext.tsx:30:40)
+          at EnvironmentProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/react-env/dist/index.js:51:11)
+          at ColorModeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/node_modules/@chakra-ui/color-mode/dist/index.js:180:5)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:106:21)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:129:11)
+          at ChakraProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/provider/dist/index.js:35:5)
+          at ChakraProvider2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/dist/index.js:84:5)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:15124:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:15163:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:15657:16)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:19909:28)
+      at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at MotionComponent (/home/runner/work/Team-1/Team-1/node_modules/framer-motion/dist/cjs/index.js:232:22)
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at MenuList2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:934:11)
+          at Menu (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:665:11)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at ProductListWomen (/home/runner/work/Team-1/Team-1/src/components/ProductList.tsx:304:49)
+          at ShoppingCartProvider (/home/runner/work/Team-1/Team-1/src/context/ShoppingCartContext.tsx:30:40)
+          at EnvironmentProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/react-env/dist/index.js:51:11)
+          at ColorModeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/node_modules/@chakra-ui/color-mode/dist/index.js:180:5)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:106:21)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:129:11)
+          at ChakraProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/provider/dist/index.js:35:5)
+          at ChakraProvider2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/dist/index.js:84:5)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:15124:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:15163:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:15657:16)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:19909:28)
+      at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at MotionComponent (/home/runner/work/Team-1/Team-1/node_modules/framer-motion/dist/cjs/index.js:232:22)
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at MenuList2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:934:11)
+          at Menu (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:665:11)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at ProductListWomen (/home/runner/work/Team-1/Team-1/src/components/ProductList.tsx:304:49)
+          at ShoppingCartProvider (/home/runner/work/Team-1/Team-1/src/context/ShoppingCartContext.tsx:30:40)
+          at EnvironmentProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/react-env/dist/index.js:51:11)
+          at ColorModeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/node_modules/@chakra-ui/color-mode/dist/index.js:180:5)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:106:21)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:129:11)
+          at ChakraProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/provider/dist/index.js:35:5)
+          at ChakraProvider2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/dist/index.js:84:5)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:15124:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:15163:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:15657:16)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:19916:28)
+      at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at MotionComponent (/home/runner/work/Team-1/Team-1/node_modules/framer-motion/dist/cjs/index.js:232:22)
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at MenuList2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:934:11)
+          at Menu (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:665:11)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at ProductListWomen (/home/runner/work/Team-1/Team-1/src/components/ProductList.tsx:304:49)
+          at ShoppingCartProvider (/home/runner/work/Team-1/Team-1/src/context/ShoppingCartContext.tsx:30:40)
+          at EnvironmentProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/react-env/dist/index.js:51:11)
+          at ColorModeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/node_modules/@chakra-ui/color-mode/dist/index.js:180:5)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:106:21)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:129:11)
+          at ChakraProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/provider/dist/index.js:35:5)
+          at ChakraProvider2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/dist/index.js:84:5)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:15124:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:15163:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:15657:16)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:19916:28)
+      at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at MotionComponent (/home/runner/work/Team-1/Team-1/node_modules/framer-motion/dist/cjs/index.js:232:22)
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at MenuList2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:934:11)
+          at Menu (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:665:11)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at ProductListWomen (/home/runner/work/Team-1/Team-1/src/components/ProductList.tsx:304:49)
+          at ShoppingCartProvider (/home/runner/work/Team-1/Team-1/src/context/ShoppingCartContext.tsx:30:40)
+          at EnvironmentProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/react-env/dist/index.js:51:11)
+          at ColorModeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/node_modules/@chakra-ui/color-mode/dist/index.js:180:5)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:106:21)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:129:11)
+          at ChakraProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/provider/dist/index.js:35:5)
+          at ChakraProvider2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/dist/index.js:84:5)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:15124:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:15163:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:15657:16)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:19916:28)
+      at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      19 |     });
+      20 |     beforeEach(() => {
+    > 21 |         render(
+         |         ^
+      22 |             <React.StrictMode>
+      23 |                 <ChakraProvider>
+      24 |                     <ShoppingCartProvider>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/ProductList.test.tsx:21:9)
+
+    console.error
+      Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at MotionComponent (/home/runner/work/Team-1/Team-1/node_modules/framer-motion/dist/cjs/index.js:232:22)
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at MenuList2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:934:11)
+          at Menu (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:665:11)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at ProductListWomen (/home/runner/work/Team-1/Team-1/src/components/ProductList.tsx:304:49)
+          at ShoppingCartProvider (/home/runner/work/Team-1/Team-1/src/context/ShoppingCartContext.tsx:30:40)
+          at EnvironmentProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/react-env/dist/index.js:51:11)
+          at ColorModeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/node_modules/@chakra-ui/color-mode/dist/index.js:180:5)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:106:21)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:129:11)
+          at ChakraProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/provider/dist/index.js:35:5)
+          at ChakraProvider2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/dist/index.js:84:5)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:15124:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:15163:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:15657:16)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:19909:28)
+      at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at MotionComponent (/home/runner/work/Team-1/Team-1/node_modules/framer-motion/dist/cjs/index.js:232:22)
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at MenuList2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:934:11)
+          at Menu (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:665:11)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at ProductListWomen (/home/runner/work/Team-1/Team-1/src/components/ProductList.tsx:304:49)
+          at ShoppingCartProvider (/home/runner/work/Team-1/Team-1/src/context/ShoppingCartContext.tsx:30:40)
+          at EnvironmentProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/react-env/dist/index.js:51:11)
+          at ColorModeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/node_modules/@chakra-ui/color-mode/dist/index.js:180:5)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:106:21)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:129:11)
+          at ChakraProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/provider/dist/index.js:35:5)
+          at ChakraProvider2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/dist/index.js:84:5)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:15124:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:15163:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:15657:16)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:19909:28)
+      at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at MotionComponent (/home/runner/work/Team-1/Team-1/node_modules/framer-motion/dist/cjs/index.js:232:22)
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at MenuList2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:934:11)
+          at Menu (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:665:11)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at ProductListWomen (/home/runner/work/Team-1/Team-1/src/components/ProductList.tsx:304:49)
+          at ShoppingCartProvider (/home/runner/work/Team-1/Team-1/src/context/ShoppingCartContext.tsx:30:40)
+          at EnvironmentProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/react-env/dist/index.js:51:11)
+          at ColorModeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/node_modules/@chakra-ui/color-mode/dist/index.js:180:5)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:106:21)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:129:11)
+          at ChakraProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/provider/dist/index.js:35:5)
+          at ChakraProvider2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/dist/index.js:84:5)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:15124:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:15163:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:15657:16)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:19909:28)
+      at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at MotionComponent (/home/runner/work/Team-1/Team-1/node_modules/framer-motion/dist/cjs/index.js:232:22)
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at MenuList2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:934:11)
+          at Menu (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:665:11)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at ProductListWomen (/home/runner/work/Team-1/Team-1/src/components/ProductList.tsx:304:49)
+          at ShoppingCartProvider (/home/runner/work/Team-1/Team-1/src/context/ShoppingCartContext.tsx:30:40)
+          at EnvironmentProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/react-env/dist/index.js:51:11)
+          at ColorModeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/node_modules/@chakra-ui/color-mode/dist/index.js:180:5)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:106:21)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:129:11)
+          at ChakraProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/provider/dist/index.js:35:5)
+          at ChakraProvider2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/dist/index.js:84:5)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:15124:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:15163:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:15657:16)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:19916:28)
+      at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at MotionComponent (/home/runner/work/Team-1/Team-1/node_modules/framer-motion/dist/cjs/index.js:232:22)
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at MenuList2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:934:11)
+          at Menu (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:665:11)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at ProductListWomen (/home/runner/work/Team-1/Team-1/src/components/ProductList.tsx:304:49)
+          at ShoppingCartProvider (/home/runner/work/Team-1/Team-1/src/context/ShoppingCartContext.tsx:30:40)
+          at EnvironmentProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/react-env/dist/index.js:51:11)
+          at ColorModeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/node_modules/@chakra-ui/color-mode/dist/index.js:180:5)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:106:21)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:129:11)
+          at ChakraProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/provider/dist/index.js:35:5)
+          at ChakraProvider2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/dist/index.js:84:5)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:15124:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:15163:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:15657:16)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:19916:28)
+      at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at MotionComponent (/home/runner/work/Team-1/Team-1/node_modules/framer-motion/dist/cjs/index.js:232:22)
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at MenuList2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:934:11)
+          at Menu (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:665:11)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at ProductListWomen (/home/runner/work/Team-1/Team-1/src/components/ProductList.tsx:304:49)
+          at ShoppingCartProvider (/home/runner/work/Team-1/Team-1/src/context/ShoppingCartContext.tsx:30:40)
+          at EnvironmentProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/react-env/dist/index.js:51:11)
+          at ColorModeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/node_modules/@chakra-ui/color-mode/dist/index.js:180:5)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:106:21)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:129:11)
+          at ChakraProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/provider/dist/index.js:35:5)
+          at ChakraProvider2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/dist/index.js:84:5)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:15124:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:15163:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:15657:16)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:19916:28)
+      at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      19 |     });
+      20 |     beforeEach(() => {
+    > 21 |         render(
+         |         ^
+      22 |             <React.StrictMode>
+      23 |                 <ChakraProvider>
+      24 |                     <ShoppingCartProvider>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/ProductList.test.tsx:21:9)
+
+    console.error
+      Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at MotionComponent (/home/runner/work/Team-1/Team-1/node_modules/framer-motion/dist/cjs/index.js:232:22)
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at MenuList2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:934:11)
+          at Menu (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:665:11)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at ProductListWomen (/home/runner/work/Team-1/Team-1/src/components/ProductList.tsx:304:49)
+          at ShoppingCartProvider (/home/runner/work/Team-1/Team-1/src/context/ShoppingCartContext.tsx:30:40)
+          at EnvironmentProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/react-env/dist/index.js:51:11)
+          at ColorModeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/node_modules/@chakra-ui/color-mode/dist/index.js:180:5)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:106:21)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:129:11)
+          at ChakraProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/provider/dist/index.js:35:5)
+          at ChakraProvider2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/dist/index.js:84:5)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:15124:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:15163:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:15657:16)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:19909:28)
+      at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at MotionComponent (/home/runner/work/Team-1/Team-1/node_modules/framer-motion/dist/cjs/index.js:232:22)
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at MenuList2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:934:11)
+          at Menu (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:665:11)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at ProductListWomen (/home/runner/work/Team-1/Team-1/src/components/ProductList.tsx:304:49)
+          at ShoppingCartProvider (/home/runner/work/Team-1/Team-1/src/context/ShoppingCartContext.tsx:30:40)
+          at EnvironmentProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/react-env/dist/index.js:51:11)
+          at ColorModeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/node_modules/@chakra-ui/color-mode/dist/index.js:180:5)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:106:21)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:129:11)
+          at ChakraProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/provider/dist/index.js:35:5)
+          at ChakraProvider2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/dist/index.js:84:5)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:15124:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:15163:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:15657:16)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:19909:28)
+      at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at MotionComponent (/home/runner/work/Team-1/Team-1/node_modules/framer-motion/dist/cjs/index.js:232:22)
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at MenuList2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:934:11)
+          at Menu (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:665:11)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at ProductListWomen (/home/runner/work/Team-1/Team-1/src/components/ProductList.tsx:304:49)
+          at ShoppingCartProvider (/home/runner/work/Team-1/Team-1/src/context/ShoppingCartContext.tsx:30:40)
+          at EnvironmentProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/react-env/dist/index.js:51:11)
+          at ColorModeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/node_modules/@chakra-ui/color-mode/dist/index.js:180:5)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:106:21)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:129:11)
+          at ChakraProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/provider/dist/index.js:35:5)
+          at ChakraProvider2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/dist/index.js:84:5)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:15124:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:15163:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:15657:16)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:19909:28)
+      at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at MotionComponent (/home/runner/work/Team-1/Team-1/node_modules/framer-motion/dist/cjs/index.js:232:22)
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at MenuList2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:934:11)
+          at Menu (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:665:11)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at ProductListWomen (/home/runner/work/Team-1/Team-1/src/components/ProductList.tsx:304:49)
+          at ShoppingCartProvider (/home/runner/work/Team-1/Team-1/src/context/ShoppingCartContext.tsx:30:40)
+          at EnvironmentProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/react-env/dist/index.js:51:11)
+          at ColorModeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/node_modules/@chakra-ui/color-mode/dist/index.js:180:5)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:106:21)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:129:11)
+          at ChakraProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/provider/dist/index.js:35:5)
+          at ChakraProvider2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/dist/index.js:84:5)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:15124:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:15163:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:15657:16)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:19916:28)
+      at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at MotionComponent (/home/runner/work/Team-1/Team-1/node_modules/framer-motion/dist/cjs/index.js:232:22)
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at MenuList2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:934:11)
+          at Menu (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:665:11)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at ProductListWomen (/home/runner/work/Team-1/Team-1/src/components/ProductList.tsx:304:49)
+          at ShoppingCartProvider (/home/runner/work/Team-1/Team-1/src/context/ShoppingCartContext.tsx:30:40)
+          at EnvironmentProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/react-env/dist/index.js:51:11)
+          at ColorModeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/node_modules/@chakra-ui/color-mode/dist/index.js:180:5)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:106:21)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:129:11)
+          at ChakraProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/provider/dist/index.js:35:5)
+          at ChakraProvider2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/dist/index.js:84:5)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:15124:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:15163:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:15657:16)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:19916:28)
+      at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at MotionComponent (/home/runner/work/Team-1/Team-1/node_modules/framer-motion/dist/cjs/index.js:232:22)
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at MenuList2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:934:11)
+          at Menu (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/menu/dist/index.js:665:11)
+          at div
+          at /home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:43:23
+          at ChakraComponent (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:228:71)
+          at div
+          at ProductListWomen (/home/runner/work/Team-1/Team-1/src/components/ProductList.tsx:304:49)
+          at ShoppingCartProvider (/home/runner/work/Team-1/Team-1/src/context/ShoppingCartContext.tsx:30:40)
+          at EnvironmentProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/react-env/dist/index.js:51:11)
+          at ColorModeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/node_modules/@chakra-ui/color-mode/dist/index.js:180:5)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@emotion/react/dist/emotion-element-b63ca7c6.cjs.dev.js:106:21)
+          at ThemeProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/system/dist/index.js:129:11)
+          at ChakraProvider (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/node_modules/@chakra-ui/provider/dist/index.js:35:5)
+          at ChakraProvider2 (/home/runner/work/Team-1/Team-1/node_modules/@chakra-ui/react/dist/index.js:84:5)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:15124:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:15163:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:15657:16)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:19916:28)
+      at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
+
+PASS src/components/ShoppingCart.test.tsx
+  ● Console
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      19 |     });
+      20 |     beforeEach(() => {
+    > 21 |         render(
+         |         ^
+      22 |             <React.StrictMode>
+      23 |                 <ChakraProvider>
+      24 |                     <ShoppingCartProvider>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/ShoppingCart.test.tsx:21:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+       8 | describe("ShoppingCart", () => {
+       9 |     test("Testing to see if In Cart: text exists", () => {
+    > 10 |         render(
+         |         ^
+      11 |             <React.StrictMode>
+      12 |                 <ChakraProvider>
+      13 |                     <ShoppingCartProvider>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/ShoppingCart.test.tsx:10:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      19 |     });
+      20 |     beforeEach(() => {
+    > 21 |         render(
+         |         ^
+      22 |             <React.StrictMode>
+      23 |                 <ChakraProvider>
+      24 |                     <ShoppingCartProvider>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/ShoppingCart.test.tsx:21:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      19 |     });
+      20 |     beforeEach(() => {
+    > 21 |         render(
+         |         ^
+      22 |             <React.StrictMode>
+      23 |                 <ChakraProvider>
+      24 |                     <ShoppingCartProvider>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/ShoppingCart.test.tsx:21:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      19 |     });
+      20 |     beforeEach(() => {
+    > 21 |         render(
+         |         ^
+      22 |             <React.StrictMode>
+      23 |                 <ChakraProvider>
+      24 |                     <ShoppingCartProvider>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/ShoppingCart.test.tsx:21:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      19 |     });
+      20 |     beforeEach(() => {
+    > 21 |         render(
+         |         ^
+      22 |             <React.StrictMode>
+      23 |                 <ChakraProvider>
+      24 |                     <ShoppingCartProvider>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/ShoppingCart.test.tsx:21:9)
+
+PASS src/components/Modal.test.tsx
+  ● Console
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      20 |     });
+      21 |     beforeEach(() => {
+    > 22 |         render(
+         |         ^
+      23 |             <React.StrictMode>
+      24 |                 <ChakraProvider>
+      25 |                     <BrowserRouter>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/Modal.test.tsx:22:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+       9 | describe("Modal testing", () => {
+      10 |     test("Testing to see if In Cart: text exists", () => {
+    > 11 |         render(
+         |         ^
+      12 |             <React.StrictMode>
+      13 |                 <ChakraProvider>
+      14 |                     <BrowserRouter>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/Modal.test.tsx:11:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      20 |     });
+      21 |     beforeEach(() => {
+    > 22 |         render(
+         |         ^
+      23 |             <React.StrictMode>
+      24 |                 <ChakraProvider>
+      25 |                     <BrowserRouter>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/Modal.test.tsx:22:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      20 |     });
+      21 |     beforeEach(() => {
+    > 22 |         render(
+         |         ^
+      23 |             <React.StrictMode>
+      24 |                 <ChakraProvider>
+      25 |                     <BrowserRouter>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/Modal.test.tsx:22:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      20 |     });
+      21 |     beforeEach(() => {
+    > 22 |         render(
+         |         ^
+      23 |             <React.StrictMode>
+      24 |                 <ChakraProvider>
+      25 |                     <BrowserRouter>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/Modal.test.tsx:22:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      20 |     });
+      21 |     beforeEach(() => {
+    > 22 |         render(
+         |         ^
+      23 |             <React.StrictMode>
+      24 |                 <ChakraProvider>
+      25 |                     <BrowserRouter>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/Modal.test.tsx:22:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      20 |     });
+      21 |     beforeEach(() => {
+    > 22 |         render(
+         |         ^
+      23 |             <React.StrictMode>
+      24 |                 <ChakraProvider>
+      25 |                     <BrowserRouter>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/Modal.test.tsx:22:9)
+
+PASS src/components/Product.test.tsx
+  ● Console
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      28 |     });
+      29 |     beforeEach(() => {
+    > 30 |         render(
+         |         ^
+      31 |             <React.StrictMode>
+      32 |                 <ChakraProvider>
+      33 |                     <ShoppingCartProvider>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/Product.test.tsx:30:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      17 |     };
+      18 |     test("testing Product render", () => {
+    > 19 |         render(
+         |         ^
+      20 |             <React.StrictMode>
+      21 |                 <ChakraProvider>
+      22 |                     <ShoppingCartProvider>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/Product.test.tsx:19:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      28 |     });
+      29 |     beforeEach(() => {
+    > 30 |         render(
+         |         ^
+      31 |             <React.StrictMode>
+      32 |                 <ChakraProvider>
+      33 |                     <ShoppingCartProvider>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/Product.test.tsx:30:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      28 |     });
+      29 |     beforeEach(() => {
+    > 30 |         render(
+         |         ^
+      31 |             <React.StrictMode>
+      32 |                 <ChakraProvider>
+      33 |                     <ShoppingCartProvider>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/Product.test.tsx:30:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      28 |     });
+      29 |     beforeEach(() => {
+    > 30 |         render(
+         |         ^
+      31 |             <React.StrictMode>
+      32 |                 <ChakraProvider>
+      33 |                     <ShoppingCartProvider>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/Product.test.tsx:30:9)
+
+PASS src/components/PaymentInformation.test.tsx
+  ● Console
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      16 |     });
+      17 |     beforeEach(() => {
+    > 18 |         render(
+         |         ^
+      19 |             <React.StrictMode>
+      20 |                 <ChakraProvider>
+      21 |                     <PaymentInformation />
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/PaymentInformation.test.tsx:18:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+       7 | describe("PaymentInformation", () => {
+       8 |     test("renders PaymentInformation object", () => {
+    >  9 |         render(
+         |         ^
+      10 |             <React.StrictMode>
+      11 |                 <ChakraProvider>
+      12 |                     <PaymentInformation />
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/PaymentInformation.test.tsx:9:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      16 |     });
+      17 |     beforeEach(() => {
+    > 18 |         render(
+         |         ^
+      19 |             <React.StrictMode>
+      20 |                 <ChakraProvider>
+      21 |                     <PaymentInformation />
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/PaymentInformation.test.tsx:18:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      16 |     });
+      17 |     beforeEach(() => {
+    > 18 |         render(
+         |         ^
+      19 |             <React.StrictMode>
+      20 |                 <ChakraProvider>
+      21 |                     <PaymentInformation />
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/PaymentInformation.test.tsx:18:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      16 |     });
+      17 |     beforeEach(() => {
+    > 18 |         render(
+         |         ^
+      19 |             <React.StrictMode>
+      20 |                 <ChakraProvider>
+      21 |                     <PaymentInformation />
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/PaymentInformation.test.tsx:18:9)
+
+PASS src/components/NavBar.test.tsx
+  ● Console
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      19 |     });
+      20 |     beforeEach(() => {
+    > 21 |         render(
+         |         ^
+      22 |             <React.StrictMode>
+      23 |                 <ChakraProvider>
+      24 |                     <BrowserRouter>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/NavBar.test.tsx:21:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+       8 | describe("NavBar tests", () => {
+       9 |     test("testing rendering", () => {
+    > 10 |         render(
+         |         ^
+      11 |             <React.StrictMode>
+      12 |                 <ChakraProvider>
+      13 |                     <BrowserRouter>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/NavBar.test.tsx:10:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      19 |     });
+      20 |     beforeEach(() => {
+    > 21 |         render(
+         |         ^
+      22 |             <React.StrictMode>
+      23 |                 <ChakraProvider>
+      24 |                     <BrowserRouter>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/NavBar.test.tsx:21:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      19 |     });
+      20 |     beforeEach(() => {
+    > 21 |         render(
+         |         ^
+      22 |             <React.StrictMode>
+      23 |                 <ChakraProvider>
+      24 |                     <BrowserRouter>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/NavBar.test.tsx:21:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      19 |     });
+      20 |     beforeEach(() => {
+    > 21 |         render(
+         |         ^
+      22 |             <React.StrictMode>
+      23 |                 <ChakraProvider>
+      24 |                     <BrowserRouter>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/NavBar.test.tsx:21:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      19 |     });
+      20 |     beforeEach(() => {
+    > 21 |         render(
+         |         ^
+      22 |             <React.StrictMode>
+      23 |                 <ChakraProvider>
+      24 |                     <BrowserRouter>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/NavBar.test.tsx:21:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      19 |     });
+      20 |     beforeEach(() => {
+    > 21 |         render(
+         |         ^
+      22 |             <React.StrictMode>
+      23 |                 <ChakraProvider>
+      24 |                     <BrowserRouter>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/NavBar.test.tsx:21:9)
+
+PASS src/components/CartItem.test.tsx
+  ● Console
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      25 |     });
+      26 |     beforeEach(() => {
+    > 27 |         render(
+         |         ^
+      28 |             <React.StrictMode>
+      29 |                 <ChakraProvider>
+      30 |                     <CartItem
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/CartItem.test.tsx:27:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      16 |     };
+      17 |     test("Testing CartItem rendering", () => {
+    > 18 |         render(
+         |         ^
+      19 |             <React.StrictMode>
+      20 |                 <ChakraProvider>
+      21 |                     <CartItem name={""} quantity={0} />
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/CartItem.test.tsx:18:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      25 |     });
+      26 |     beforeEach(() => {
+    > 27 |         render(
+         |         ^
+      28 |             <React.StrictMode>
+      29 |                 <ChakraProvider>
+      30 |                     <CartItem
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/CartItem.test.tsx:27:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      25 |     });
+      26 |     beforeEach(() => {
+    > 27 |         render(
+         |         ^
+      28 |             <React.StrictMode>
+      29 |                 <ChakraProvider>
+      30 |                     <CartItem
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/CartItem.test.tsx:27:9)
+
+PASS src/components/Main.test.tsx
+  ● Console
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      19 |     });
+      20 |     beforeEach(() => {
+    > 21 |         render(
+         |         ^
+      22 |             <React.StrictMode>
+      23 |                 <ChakraProvider>
+      24 |                     <BrowserRouter>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/Main.test.tsx:21:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+       8 | describe("testing Main", () => {
+       9 |     test("testing Main rendering", () => {
+    > 10 |         render(
+         |         ^
+      11 |             <React.StrictMode>
+      12 |                 <ChakraProvider>
+      13 |                     <BrowserRouter>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/Main.test.tsx:10:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      19 |     });
+      20 |     beforeEach(() => {
+    > 21 |         render(
+         |         ^
+      22 |             <React.StrictMode>
+      23 |                 <ChakraProvider>
+      24 |                     <BrowserRouter>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/Main.test.tsx:21:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      19 |     });
+      20 |     beforeEach(() => {
+    > 21 |         render(
+         |         ^
+      22 |             <React.StrictMode>
+      23 |                 <ChakraProvider>
+      24 |                     <BrowserRouter>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/Main.test.tsx:21:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      19 |     });
+      20 |     beforeEach(() => {
+    > 21 |         render(
+         |         ^
+      22 |             <React.StrictMode>
+      23 |                 <ChakraProvider>
+      24 |                     <BrowserRouter>
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/Main.test.tsx:21:9)
+
+PASS src/components/AddProduct.test.tsx
+  ● Console
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      16 |     });
+      17 |     beforeEach(() => {
+    > 18 |         render(
+         |         ^
+      19 |             <React.StrictMode>
+      20 |                 <ChakraProvider>
+      21 |                     <AddProduct />
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/AddProduct.test.tsx:18:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+       7 | describe("AddProduct testing", () => {
+       8 |     test("Testing AddProduct rendering", () => {
+    >  9 |         render(
+         |         ^
+      10 |             <React.StrictMode>
+      11 |                 <ChakraProvider>
+      12 |                     <AddProduct />
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/AddProduct.test.tsx:9:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      16 |     });
+      17 |     beforeEach(() => {
+    > 18 |         render(
+         |         ^
+      19 |             <React.StrictMode>
+      20 |                 <ChakraProvider>
+      21 |                     <AddProduct />
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/AddProduct.test.tsx:18:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      16 |     });
+      17 |     beforeEach(() => {
+    > 18 |         render(
+         |         ^
+      19 |             <React.StrictMode>
+      20 |                 <ChakraProvider>
+      21 |                     <AddProduct />
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/AddProduct.test.tsx:18:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      16 |     });
+      17 |     beforeEach(() => {
+    > 18 |         render(
+         |         ^
+      19 |             <React.StrictMode>
+      20 |                 <ChakraProvider>
+      21 |                     <AddProduct />
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/AddProduct.test.tsx:18:9)
+
+PASS src/components/CheckoutItem.test.tsx
+  ● Console
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      16 |     });
+      17 |     beforeEach(() => {
+    > 18 |         render(
+         |         ^
+      19 |             <React.StrictMode>
+      20 |                 <ChakraProvider>
+      21 |                     <CheckoutItem name={""} quantity={0} />
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/CheckoutItem.test.tsx:18:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+       7 | describe("CheckoutItem testing", () => {
+       8 |     test("Testing CheckoutItem rendering", () => {
+    >  9 |         render(
+         |         ^
+      10 |             <React.StrictMode>
+      11 |                 <ChakraProvider>
+      12 |                     <CheckoutItem name={""} quantity={0} />
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/CheckoutItem.test.tsx:9:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      16 |     });
+      17 |     beforeEach(() => {
+    > 18 |         render(
+         |         ^
+      19 |             <React.StrictMode>
+      20 |                 <ChakraProvider>
+      21 |                     <CheckoutItem name={""} quantity={0} />
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/CheckoutItem.test.tsx:18:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+      16 |     });
+      17 |     beforeEach(() => {
+    > 18 |         render(
+         |         ^
+      19 |             <React.StrictMode>
+      20 |                 <ChakraProvider>
+      21 |                     <CheckoutItem name={""} quantity={0} />
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/components/CheckoutItem.test.tsx:18:9)
+
+PASS src/App.test.tsx
+  ● Console
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+       7 | describe("App", () => {
+       8 |     beforeEach(() => {
+    >  9 |         render(
+         |         ^
+      10 |             <React.StrictMode>
+      11 |                 <ChakraProvider>
+      12 |                     <App />
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/App.test.tsx:9:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+       7 | describe("App", () => {
+       8 |     beforeEach(() => {
+    >  9 |         render(
+         |         ^
+      10 |             <React.StrictMode>
+      11 |                 <ChakraProvider>
+      12 |                     <App />
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/App.test.tsx:9:9)
+
+    console.error
+      Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+       7 | describe("App", () => {
+       8 |     beforeEach(() => {
+    >  9 |         render(
+         |         ^
+      10 |             <React.StrictMode>
+      11 |                 <ChakraProvider>
+      12 |                     <App />
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:86:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:7)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:29404:5)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at act (node_modules/react/cjs/react.development.js:2512:16)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/App.test.tsx:9:9)
+
+--------------------------|---------|----------|---------|---------|-------------------------------------------------
+File                      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                               
+--------------------------|---------|----------|---------|---------|-------------------------------------------------
+All files                 |   30.78 |    10.63 |   18.66 |   31.38 |                                                 
+ src                      |     100 |      100 |     100 |     100 |                                                 
+  App.tsx                 |     100 |      100 |     100 |     100 |                                                 
+ src/components           |   44.44 |     32.5 |   24.73 |   44.23 |                                                 
+  AddProduct.tsx          |   26.19 |      100 |    5.55 |   26.19 | 12-88,108-121,131-175                           
+  CartItem.tsx            |      50 |     37.5 |      50 |      50 | 26,28,34-61                                     
+  CheckoutItem.tsx        |   54.54 |       50 |      60 |   57.14 | 23,25,31                                        
+  Logout.tsx              |      20 |      100 |       0 |      20 | 5-9                                             
+  Main.tsx                |     100 |      100 |     100 |     100 |                                                 
+  Modal.tsx               |   48.83 |       50 |      25 |   48.83 | 102-112,140-252,277-295,318                     
+  Navbar.tsx              |   57.14 |       50 |      25 |   57.14 | 103-183                                         
+  PaymentInformation.tsx  |   80.76 |      100 |      50 |   80.76 | 70-113,132                                      
+  Product.tsx             |   57.14 |      100 |      25 |   57.14 | 62-75                                           
+  ProductList.tsx         |   31.11 |     8.33 |      15 |   31.11 | 133-154,180-194,206-220,224-244,263-295,309,323 
+  RemoveProduct.tsx       |      50 |      100 |       0 |      50 | 5,8                                             
+  ShoppingCart.tsx        |      30 |        0 |      20 |      30 | 44-61                                           
+ src/components/pages     |     7.2 |        0 |       0 |     7.5 |                                                 
+  Admin.tsx               |      50 |      100 |       0 |      50 | 17                                              
+  Cart.tsx                |       0 |      100 |       0 |       0 | 3-4                                             
+  Login.tsx               |     8.1 |        0 |       0 |    8.33 | 32-136                                          
+  OrderConfirmation.tsx   |    3.84 |        0 |       0 |    4.16 | 26-173                                          
+  Registration.tsx        |    5.35 |        0 |       0 |    5.55 | 33-315                                          
+  Shop.tsx                |      50 |      100 |       0 |      50 | 8                                               
+ src/context              |      25 |    16.66 |      15 |   31.03 |                                                 
+  ShoppingCartContext.tsx |      25 |    16.66 |      15 |   31.03 | 37,44-79                                        
+ src/utility              |     100 |      100 |     100 |     100 |                                                 
+  formatMoney.ts          |     100 |      100 |     100 |     100 |                                                 
+--------------------------|---------|----------|---------|---------|-------------------------------------------------
+
+Test Suites: 11 passed, 11 total
+Tests:       46 passed, 46 total
+Snapshots:   0 total
+Time:        19.133 s
+Ran all test suites.
