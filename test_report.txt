@@ -5,7 +5,7 @@
 Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
-PASS src/components/ProductList.test.tsx
+PASS src/testing/ProductList.test.tsx
   ● Console
 
     console.error
@@ -25,7 +25,7 @@ PASS src/components/ProductList.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/ProductList.test.tsx:21:9)
+      at Object.<anonymous> (src/testing/ProductList.test.tsx:21:9)
 
     console.error
       Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
@@ -242,7 +242,7 @@ PASS src/components/ProductList.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/ProductList.test.tsx:10:9)
+      at Object.<anonymous> (src/testing/ProductList.test.tsx:10:9)
 
     console.error
       Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
@@ -459,7 +459,7 @@ PASS src/components/ProductList.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/ProductList.test.tsx:21:9)
+      at Object.<anonymous> (src/testing/ProductList.test.tsx:21:9)
 
     console.error
       Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
@@ -676,7 +676,7 @@ PASS src/components/ProductList.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/ProductList.test.tsx:21:9)
+      at Object.<anonymous> (src/testing/ProductList.test.tsx:21:9)
 
     console.error
       Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
@@ -893,7 +893,7 @@ PASS src/components/ProductList.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/ProductList.test.tsx:21:9)
+      at Object.<anonymous> (src/testing/ProductList.test.tsx:21:9)
 
     console.error
       Warning: Encountered two children with the same key, `category`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
@@ -1093,7 +1093,7 @@ PASS src/components/ProductList.test.tsx
       at updateHostComponent$1 (node_modules/react-dom/cjs/react-dom.development.js:20658:3)
       at beginWork (node_modules/react-dom/cjs/react-dom.development.js:22373:14)
 
-PASS src/components/ShoppingCart.test.tsx
+PASS src/testing/ShoppingCart.test.tsx
   ● Console
 
     console.error
@@ -1113,7 +1113,7 @@ PASS src/components/ShoppingCart.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/ShoppingCart.test.tsx:21:9)
+      at Object.<anonymous> (src/testing/ShoppingCart.test.tsx:21:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1132,7 +1132,7 @@ PASS src/components/ShoppingCart.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/ShoppingCart.test.tsx:10:9)
+      at Object.<anonymous> (src/testing/ShoppingCart.test.tsx:10:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1151,7 +1151,7 @@ PASS src/components/ShoppingCart.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/ShoppingCart.test.tsx:21:9)
+      at Object.<anonymous> (src/testing/ShoppingCart.test.tsx:21:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1170,7 +1170,7 @@ PASS src/components/ShoppingCart.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/ShoppingCart.test.tsx:21:9)
+      at Object.<anonymous> (src/testing/ShoppingCart.test.tsx:21:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1189,7 +1189,7 @@ PASS src/components/ShoppingCart.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/ShoppingCart.test.tsx:21:9)
+      at Object.<anonymous> (src/testing/ShoppingCart.test.tsx:21:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1208,9 +1208,9 @@ PASS src/components/ShoppingCart.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/ShoppingCart.test.tsx:21:9)
+      at Object.<anonymous> (src/testing/ShoppingCart.test.tsx:21:9)
 
-PASS src/components/Modal.test.tsx
+PASS src/testing/Modal.test.tsx
   ● Console
 
     console.error
@@ -1230,7 +1230,7 @@ PASS src/components/Modal.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/Modal.test.tsx:22:9)
+      at Object.<anonymous> (src/testing/Modal.test.tsx:22:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1249,7 +1249,7 @@ PASS src/components/Modal.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/Modal.test.tsx:11:9)
+      at Object.<anonymous> (src/testing/Modal.test.tsx:11:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1268,7 +1268,7 @@ PASS src/components/Modal.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/Modal.test.tsx:22:9)
+      at Object.<anonymous> (src/testing/Modal.test.tsx:22:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1287,7 +1287,7 @@ PASS src/components/Modal.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/Modal.test.tsx:22:9)
+      at Object.<anonymous> (src/testing/Modal.test.tsx:22:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1306,7 +1306,7 @@ PASS src/components/Modal.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/Modal.test.tsx:22:9)
+      at Object.<anonymous> (src/testing/Modal.test.tsx:22:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1325,7 +1325,7 @@ PASS src/components/Modal.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/Modal.test.tsx:22:9)
+      at Object.<anonymous> (src/testing/Modal.test.tsx:22:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1344,9 +1344,9 @@ PASS src/components/Modal.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/Modal.test.tsx:22:9)
+      at Object.<anonymous> (src/testing/Modal.test.tsx:22:9)
 
-PASS src/components/Product.test.tsx
+PASS src/testing/Product.test.tsx
   ● Console
 
     console.error
@@ -1366,7 +1366,7 @@ PASS src/components/Product.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/Product.test.tsx:30:9)
+      at Object.<anonymous> (src/testing/Product.test.tsx:30:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1385,7 +1385,7 @@ PASS src/components/Product.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/Product.test.tsx:19:9)
+      at Object.<anonymous> (src/testing/Product.test.tsx:19:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1404,7 +1404,7 @@ PASS src/components/Product.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/Product.test.tsx:30:9)
+      at Object.<anonymous> (src/testing/Product.test.tsx:30:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1423,7 +1423,7 @@ PASS src/components/Product.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/Product.test.tsx:30:9)
+      at Object.<anonymous> (src/testing/Product.test.tsx:30:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1442,9 +1442,9 @@ PASS src/components/Product.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/Product.test.tsx:30:9)
+      at Object.<anonymous> (src/testing/Product.test.tsx:30:9)
 
-PASS src/components/PaymentInformation.test.tsx
+PASS src/testing/PaymentInformation.test.tsx
   ● Console
 
     console.error
@@ -1464,7 +1464,7 @@ PASS src/components/PaymentInformation.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/PaymentInformation.test.tsx:18:9)
+      at Object.<anonymous> (src/testing/PaymentInformation.test.tsx:18:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1483,7 +1483,7 @@ PASS src/components/PaymentInformation.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/PaymentInformation.test.tsx:9:9)
+      at Object.<anonymous> (src/testing/PaymentInformation.test.tsx:9:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1502,7 +1502,7 @@ PASS src/components/PaymentInformation.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/PaymentInformation.test.tsx:18:9)
+      at Object.<anonymous> (src/testing/PaymentInformation.test.tsx:18:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1521,7 +1521,7 @@ PASS src/components/PaymentInformation.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/PaymentInformation.test.tsx:18:9)
+      at Object.<anonymous> (src/testing/PaymentInformation.test.tsx:18:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1540,9 +1540,9 @@ PASS src/components/PaymentInformation.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/PaymentInformation.test.tsx:18:9)
+      at Object.<anonymous> (src/testing/PaymentInformation.test.tsx:18:9)
 
-PASS src/components/NavBar.test.tsx
+PASS src/testing/NavBar.test.tsx
   ● Console
 
     console.error
@@ -1562,7 +1562,7 @@ PASS src/components/NavBar.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/NavBar.test.tsx:21:9)
+      at Object.<anonymous> (src/testing/NavBar.test.tsx:21:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1581,7 +1581,7 @@ PASS src/components/NavBar.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/NavBar.test.tsx:10:9)
+      at Object.<anonymous> (src/testing/NavBar.test.tsx:10:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1600,7 +1600,7 @@ PASS src/components/NavBar.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/NavBar.test.tsx:21:9)
+      at Object.<anonymous> (src/testing/NavBar.test.tsx:21:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1619,7 +1619,7 @@ PASS src/components/NavBar.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/NavBar.test.tsx:21:9)
+      at Object.<anonymous> (src/testing/NavBar.test.tsx:21:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1638,7 +1638,7 @@ PASS src/components/NavBar.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/NavBar.test.tsx:21:9)
+      at Object.<anonymous> (src/testing/NavBar.test.tsx:21:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1657,7 +1657,7 @@ PASS src/components/NavBar.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/NavBar.test.tsx:21:9)
+      at Object.<anonymous> (src/testing/NavBar.test.tsx:21:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1676,9 +1676,9 @@ PASS src/components/NavBar.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/NavBar.test.tsx:21:9)
+      at Object.<anonymous> (src/testing/NavBar.test.tsx:21:9)
 
-PASS src/components/CartItem.test.tsx
+PASS src/testing/CartItem.test.tsx
   ● Console
 
     console.error
@@ -1698,7 +1698,7 @@ PASS src/components/CartItem.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/CartItem.test.tsx:27:9)
+      at Object.<anonymous> (src/testing/CartItem.test.tsx:27:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1717,7 +1717,7 @@ PASS src/components/CartItem.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/CartItem.test.tsx:18:9)
+      at Object.<anonymous> (src/testing/CartItem.test.tsx:18:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1736,7 +1736,7 @@ PASS src/components/CartItem.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/CartItem.test.tsx:27:9)
+      at Object.<anonymous> (src/testing/CartItem.test.tsx:27:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1755,9 +1755,9 @@ PASS src/components/CartItem.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/CartItem.test.tsx:27:9)
+      at Object.<anonymous> (src/testing/CartItem.test.tsx:27:9)
 
-PASS src/components/Main.test.tsx
+PASS src/testing/Main.test.tsx
   ● Console
 
     console.error
@@ -1777,7 +1777,7 @@ PASS src/components/Main.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/Main.test.tsx:21:9)
+      at Object.<anonymous> (src/testing/Main.test.tsx:21:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1796,7 +1796,7 @@ PASS src/components/Main.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/Main.test.tsx:10:9)
+      at Object.<anonymous> (src/testing/Main.test.tsx:10:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1815,7 +1815,7 @@ PASS src/components/Main.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/Main.test.tsx:21:9)
+      at Object.<anonymous> (src/testing/Main.test.tsx:21:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1834,7 +1834,7 @@ PASS src/components/Main.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/Main.test.tsx:21:9)
+      at Object.<anonymous> (src/testing/Main.test.tsx:21:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1853,9 +1853,9 @@ PASS src/components/Main.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/Main.test.tsx:21:9)
+      at Object.<anonymous> (src/testing/Main.test.tsx:21:9)
 
-PASS src/components/AddProduct.test.tsx
+PASS src/testing/AddProduct.test.tsx
   ● Console
 
     console.error
@@ -1875,7 +1875,7 @@ PASS src/components/AddProduct.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/AddProduct.test.tsx:18:9)
+      at Object.<anonymous> (src/testing/AddProduct.test.tsx:18:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1894,7 +1894,7 @@ PASS src/components/AddProduct.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/AddProduct.test.tsx:9:9)
+      at Object.<anonymous> (src/testing/AddProduct.test.tsx:9:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1913,7 +1913,7 @@ PASS src/components/AddProduct.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/AddProduct.test.tsx:18:9)
+      at Object.<anonymous> (src/testing/AddProduct.test.tsx:18:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1932,7 +1932,7 @@ PASS src/components/AddProduct.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/AddProduct.test.tsx:18:9)
+      at Object.<anonymous> (src/testing/AddProduct.test.tsx:18:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1951,9 +1951,9 @@ PASS src/components/AddProduct.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/AddProduct.test.tsx:18:9)
+      at Object.<anonymous> (src/testing/AddProduct.test.tsx:18:9)
 
-PASS src/components/CheckoutItem.test.tsx
+PASS src/testing/CheckoutItem.test.tsx
   ● Console
 
     console.error
@@ -1973,7 +1973,7 @@ PASS src/components/CheckoutItem.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/CheckoutItem.test.tsx:18:9)
+      at Object.<anonymous> (src/testing/CheckoutItem.test.tsx:18:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -1992,7 +1992,7 @@ PASS src/components/CheckoutItem.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/CheckoutItem.test.tsx:9:9)
+      at Object.<anonymous> (src/testing/CheckoutItem.test.tsx:9:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -2011,7 +2011,7 @@ PASS src/components/CheckoutItem.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/CheckoutItem.test.tsx:18:9)
+      at Object.<anonymous> (src/testing/CheckoutItem.test.tsx:18:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -2030,9 +2030,9 @@ PASS src/components/CheckoutItem.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/CheckoutItem.test.tsx:18:9)
+      at Object.<anonymous> (src/testing/CheckoutItem.test.tsx:18:9)
 
-PASS src/App.test.tsx
+PASS src/testing/App.test.tsx
   ● Console
 
     console.error
@@ -2052,7 +2052,7 @@ PASS src/App.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/App.test.tsx:9:9)
+      at Object.<anonymous> (src/testing/App.test.tsx:9:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -2071,7 +2071,7 @@ PASS src/App.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/App.test.tsx:9:9)
+      at Object.<anonymous> (src/testing/App.test.tsx:9:9)
 
     console.error
       Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
@@ -2090,7 +2090,7 @@ PASS src/App.test.tsx
       at node_modules/@testing-library/react/dist/pure.js:101:25
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/App.test.tsx:9:9)
+      at Object.<anonymous> (src/testing/App.test.tsx:9:9)
 
 --------------------------|---------|----------|---------|---------|-------------------------------------------------
 File                      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                               
@@ -2127,5 +2127,5 @@ All files                 |   30.78 |    10.63 |   18.66 |   31.38 |
 Test Suites: 11 passed, 11 total
 Tests:       46 passed, 46 total
 Snapshots:   0 total
-Time:        19.133 s
+Time:        18.194 s
 Ran all test suites.
